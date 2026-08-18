@@ -1,0 +1,29 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>TRABALHO VIA CEP E BRASIL API</title>
+    </head>
+    <body>
+      <h1>Calculando a taxa de entrega por CEP</h1>
+      <form>
+        <p>
+          CEP:
+          <input type="text" class="cep" maxlength="8" id="inCep" />
+        </p>
+        <p>Rua: <input type="text" id="inRua" disabled /></p>
+        <p>Estado: <input type="text" id="inEstado" disabled /></p>
+        <p>Cidade: <input type="text" id="inCidade" disabled /></p>
+        <p>Bairro: <input type="text" id="inBairro" disabled /></p>
+
+        <input type="submit" value="Consultar" />
+      </form>
+      <h2></h2>
+
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+      <script src="/API_cep/taxaRegiao/mascara.js"></script>
+      <script src="/API_cep/taxaRegiao/script.js"></script>
+    </body></html
+></DOCTYPE>
